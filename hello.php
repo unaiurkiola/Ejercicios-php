@@ -1,9 +1,5 @@
 <html>
-<head>
-<title>HelloWorld</title>
-</head>
 <body>
-<?php echo '<p>Hello World!</p>' ?>
+Hello <?php echo $_GET["name"]; ?>
 </body>
 </html>
-
